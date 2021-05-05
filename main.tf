@@ -356,9 +356,6 @@ resource "aws_lb_listener_rule" "example" {
   }
 
   condition {
-    # こちらの書き方は古いらしい
-    # field  = "path-pattern"
-    # values = ["/*"]
     path_pattern {
       values = ["/*"]
     }

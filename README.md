@@ -6,6 +6,7 @@ A simple example of Terraform inspired by `Yuki Nomura. Jissen Terraform. Septem
 
 Usage
 -----
+ Acquires a domain and create Route 53 zone in AWS management console beforehand, execute below command.
 ```
 $ terraform apply -var 'domain_name=example.com'
 ```
